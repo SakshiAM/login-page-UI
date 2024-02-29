@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: white;
+}
+
+.main {
+  background-color: skyblue;
+  padding: 50px;
+  width: 380px;
+  gap: none;
+}
+
+.titlediv {
+  height: 50px;
+  margin-top: 30px;
+  display: grid;
+  margin-bottom: 30px;
+}
+.google {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.facebook {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+}
+.para {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.txtemail {
+  border: none;
+  background-color: white;
+  width: 92.5%;
+  height: 7px;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1.5px solid rgb(210, 106, 255);
+}
+
+.txtpass {
+  border: none;
+  background-color: white;
+  width: 92.5%;
+  height: 7px;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 5px;
+  border: 1.5px solid rgb(210, 106, 255);
+}
+
+.forgetpass {
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+a {
+  color: rgb(210, 106, 255);
+  text-decoration: none;
+}
+
+.subbtn {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+}
